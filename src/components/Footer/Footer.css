@@ -1,0 +1,22 @@
+.Footer footer {
+  background: #2885c0;
+  padding: 40px 0;
+}
+
+.Footer .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Footer ul {
+  list-style: none;
+}
+
+.Footer li {
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.Footer li a {
+  color: #fff;
+}
