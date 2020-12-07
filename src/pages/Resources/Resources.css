@@ -1,0 +1,36 @@
+.Resources .resourcesOne {
+  padding: 10rem 150px 6rem 250px;
+  background: #0f9fc7;
+  color: #fff;
+}
+
+.Resources .resourcesTwo {
+  padding: 4.5rem 150px 6rem 250px;
+}
+
+.Resources h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.Resources .url {
+  margin-top: 20px;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Resources .resourcesThree {
+  padding: 30px;
+  background: #0f9fc7;
+}
+
+.Resources .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Resources .image {
+  margin: 0 auto;
+}
