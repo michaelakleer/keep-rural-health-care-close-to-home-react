@@ -19,9 +19,9 @@ export default function About() {
       <section className="aboutTwo">
         <div className="containerOne">
           <div className="imageOne">
-            <figure class="image is-128x128">
+            <figure className="image is-128x128">
               <img
-                class="is-rounded"
+                className="is-rounded"
                 src="https://bulma.io/images/placeholders/128x128.png"
                 alt="portrait"
               />
@@ -60,9 +60,9 @@ export default function About() {
             </p>
           </div>
           <div className="imageTwo">
-            <figure class="image is-128x128">
+            <figure className="image is-128x128">
               <img
-                class="is-rounded"
+                className="is-rounded"
                 src="https://bulma.io/images/placeholders/128x128.png"
                 alt="portrait"
               />
@@ -72,11 +72,11 @@ export default function About() {
       </section>
       <section className="aboutFour">
         <div className="containerThree">
-          <div className="box">
+          <div className="bioBox">
             <div className="imageThree">
-              <figure class="image is-128x128">
+              <figure className="image is-128x128 imgRow">
                 <img
-                  class="is-rounded"
+                  className="is-rounded"
                   src="https://bulma.io/images/placeholders/128x128.png"
                   alt="portrait"
                 />
@@ -94,17 +94,17 @@ export default function About() {
               </p>
             </div>
           </div>
-          <div className="boxOne">
+          <div className="bioBox">
             <div className="imageFour">
-              <figure class="image is-128x128">
+              <figure className="image is-128x128 imgRow">
                 <img
-                  class="is-rounded"
+                  className="is-rounded"
                   src="https://bulma.io/images/placeholders/128x128.png"
                   alt="portrait"
                 />
               </figure>
             </div>
-            <div className="bioTwo">
+            <div className="bioFour">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse scelerisque non velit in aliquam. Sed feugiat, arcu
@@ -116,11 +116,11 @@ export default function About() {
               </p>
             </div>
           </div>
-          <div className="boxThree">
+          <div className="bioBox">
             <div className="imageFive">
-              <figure class="image is-128x128">
+              <figure className="image is-128x128 imgRow">
                 <img
-                  class="is-rounded"
+                  className="is-rounded"
                   src="https://bulma.io/images/placeholders/128x128.png"
                   alt="portrait"
                 />

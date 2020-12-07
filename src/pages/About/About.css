@@ -48,4 +48,22 @@
 
 .About .containerThree {
   display: flex;
+  margin: 20px;
+}
+
+.About .imgRow {
+  margin: 0 auto;
+}
+
+.About .bioBox {
+  margin: 5px;
+  background: #0f9fc7;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.About .imageThree,
+.About .imageFour,
+.About .imageFive {
+  margin-bottom: 8px;
 }
