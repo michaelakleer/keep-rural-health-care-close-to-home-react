@@ -61,10 +61,6 @@
   padding: 35px 25px;
 }
 
-.Home footer {
-  background: #2885c0;
-  padding: 40px 0;
-}
 .Home .container {
   display: flex;
   justify-content: space-around;
@@ -83,19 +79,6 @@
 
 .Home .boxThree a:hover {
   text-decoration: underline;
-}
-
-.Home ul {
-  list-style: none;
-}
-
-.Home li {
-  line-height: 25px;
-  font-size: 15px;
-}
-
-.Home li a {
-  color: #fff;
 }
 
 .Home .button {

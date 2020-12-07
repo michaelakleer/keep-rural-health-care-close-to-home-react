@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import { Button } from "react-bulma-components";
 import "./Home.css";
 
@@ -75,53 +75,6 @@ export default function Home() {
         </div>
         <Button className="button is-large is-fullwidth">Archive</Button>
       </section>
-      <footer>
-        <div className="container">
-          <div className="boxOne">
-            <nav>
-              <ul>
-                <li>
-                  <Link to="/">Home</Link>
-                </li>
-                <li>
-                  <Link to="/about">About</Link>
-                </li>
-                <li>
-                  <Link to="/research">Research</Link>
-                </li>
-                <li>
-                  <Link to="/resources">Resources</Link>
-                </li>
-                <li>
-                  <Link to="/community">Community</Link>
-                </li>
-                <li>
-                  <Link to="/events">Events</Link>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div className="boxTwo">
-            <Button>Contact</Button>
-          </div>
-          <div className="boxThree">
-            <ul>
-              <li>
-                <a href="/">Poop</a>
-              </li>
-              <li>
-                <a href="/">Fart</a>
-              </li>
-              <li>
-                <a href="/">Pee</a>
-              </li>
-              <li>
-                <a href="/">Bidet</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
