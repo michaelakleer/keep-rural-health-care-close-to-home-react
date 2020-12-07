@@ -1,0 +1,51 @@
+.About .aboutOne {
+  padding: 14.25rem 150px 10rem 250px;
+  text-align: right;
+  background: #0f9fc7;
+  line-height: 50px;
+}
+
+.About .aboutTwo {
+  padding: 30px;
+}
+
+.About .aboutThree {
+  padding: 30px;
+  background: #0f9fc7;
+}
+
+.About h1 {
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+}
+
+.About .containerOne {
+  display: flex;
+}
+
+.About .bioOne {
+  margin-left: 20px;
+}
+
+.About .imageOne {
+  margin-right: 5px;
+}
+
+.About .containerTwo {
+  display: flex;
+}
+
+.About .bioTwo {
+  text-align: right;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.About .imageTwo {
+  margin-left: 5px;
+}
+
+.About .containerThree {
+  display: flex;
+}

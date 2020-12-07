@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Button } from "react-bulma-components";
 import "./Home.css";
 
@@ -77,14 +78,28 @@ export default function Home() {
       <footer>
         <div className="container">
           <div className="boxOne">
-            <ul>
-              <li>Home</li>
-              <li>About</li>
-              <li>Research</li>
-              <li>Resources</li>
-              <li>Community</li>
-              <li>Events</li>
-            </ul>
+            <nav>
+              <ul>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/about">About</Link>
+                </li>
+                <li>
+                  <Link to="/research">Research</Link>
+                </li>
+                <li>
+                  <Link to="/resources">Resources</Link>
+                </li>
+                <li>
+                  <Link to="/community">Community</Link>
+                </li>
+                <li>
+                  <Link to="/events">Events</Link>
+                </li>
+              </ul>
+            </nav>
           </div>
           <div className="boxTwo">
             <Button>Contact</Button>
