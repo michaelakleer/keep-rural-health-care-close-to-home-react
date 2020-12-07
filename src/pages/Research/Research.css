@@ -1,0 +1,25 @@
+.Research .researchOne {
+  padding: 14.25rem 150px 10rem 250px;
+  text-align: right;
+  background: #0f9fc7;
+  line-height: 50px;
+}
+
+.Research h1 {
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+}
+
+.Research .researchTwo {
+  padding: 30px;
+}
+
+.Research .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Research .image {
+  margin: 0 auto;
+}
