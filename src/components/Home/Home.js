@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "react-bulma-components";
 import "./Home.css";
 
 export default function Home() {
@@ -71,10 +72,7 @@ export default function Home() {
             feugiat eget ac libero.
           </p>
         </div>
-        <button>
-          {" "}
-          <a href="/">Archive</a>{" "}
-        </button>
+        <Button className="button is-large is-fullwidth">Archive</Button>
       </section>
       <footer>
         <div className="container">
@@ -89,9 +87,7 @@ export default function Home() {
             </ul>
           </div>
           <div className="boxTwo">
-            <button>
-              <a href="/">Contact</a>
-            </button>
+            <Button>Contact</Button>
           </div>
           <div className="boxThree">
             <ul>
