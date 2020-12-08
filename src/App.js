@@ -8,6 +8,7 @@ import Research from "./pages/Research/Research";
 import Resources from "./pages/Resources/Resources";
 import Community from "./pages/Community/Community";
 import Events from "./pages/Events/Events";
+import Contact from "./pages/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 
 import "./App.css";
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/resources" component={Resources} />
           <Route path="/community" component={Community} />
           <Route path="/events" component={Events} />
+          <Route path="/contact" component={Contact} />
         </Switch>
         <Footer />
       </div>
