@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import { Button } from "react-bulma-components";
 import "./Home.css";
 
@@ -73,7 +73,9 @@ export default function Home() {
             feugiat eget ac libero.
           </p>
         </div>
-        <Button className="button is-large is-fullwidth">Archive</Button>
+        <Link>
+          <Button className="button is-large is-fullwidth">Archive</Button>
+        </Link>
       </section>
     </div>
   );
