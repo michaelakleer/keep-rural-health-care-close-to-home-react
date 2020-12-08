@@ -1,11 +1,11 @@
 .Resources .resourcesOne {
-  padding: 10rem 150px 6rem 250px;
+  padding: 10rem 250px 6rem 250px;
   background: #0f9fc7;
   color: #fff;
 }
 
 .Resources .resourcesTwo {
-  padding: 4.5rem 150px 6rem 250px;
+  padding: 4.5rem 250px 6rem 250px;
 }
 
 .Resources h1 {
@@ -28,7 +28,7 @@
 
 .Resources .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .Resources .image {
