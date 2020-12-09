@@ -5,13 +5,49 @@ export default function Community() {
   return (
     <div className="Community">
       <section className="communityOne">
-        <h1>Yo</h1>
+        <ul>
+          <li>
+            <a href="http://grandviewmanitoba.com/default.asp">
+              {" "}
+              Grandview News and Views Website
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/gvhomecoming/">
+              Grandview News and Views Facebook Page
+            </a>
+          </li>
+        </ul>
       </section>
       <section className="communityTwo">
-        <h1>Yo</h1>
+        <h1>Community Health Resources</h1>
+        <div className="container">
+          <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          </ul>
+          <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          </ul>
+        </div>
       </section>
       <section className="communityThree">
-        <h1>Yo</h1>
+        <h1>Mental Health Resources</h1>
+        <div className="container">
+          <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          </ul>
+          <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          </ul>
+        </div>
       </section>
     </div>
   );

@@ -1,19 +1,73 @@
 .Events .eventsOne {
-  padding: 14.25rem 150px 10rem 250px;
-  text-align: right;
+  padding: 8rem 150px 3rem 250px;
   background: #0f9fc7;
-  
 }
 
 .Events .eventsTwo {
-  padding: 14.25rem 150px 10rem 250px;
-  text-align: right;
-  
+  padding: 4rem 150px 4rem 250px;
 }
 
 .Events .eventsThree {
-  padding: 14.25rem 150px 10rem 250px;
-  text-align: right;
+  padding: 4rem 150px 10rem 250px;
   background: #0f9fc7;
-  
+}
+
+.eventsOne h1,
+.eventsThree h1 {
+  text-align: center;
+  font-size: 35px;
+  color: #fff;
+  text-decoration: underline;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.eventsTwo h1 {
+  text-align: center;
+  font-size: 35px;
+  text-decoration: underline;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.eventsOne p,
+.eventsTwo p,
+.eventsThree p {
+  text-align: center;
+  line-height: 40px;
+}
+
+.eventsOne a,
+.eventsThree a {
+  color: #fff;
+}
+
+.eventsTwo a {
+  color: #000;
+}
+
+.Events a:hover {
+  text-decoration: underline;
+}
+
+.eventsOne .petitions,
+.eventsTwo .activations,
+.eventsThree .left,
+.eventsThree .right {
+  margin-top: 25px;
+}
+
+.Events .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Events h2 {
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.Events .leftUrls,
+.Events .rightUrls {
+  margin-top: 10px;
 }

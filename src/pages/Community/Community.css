@@ -2,23 +2,42 @@
   padding: 14.25rem 150px 10rem 250px;
   text-align: center;
   background: #0f9fc7;
-
   color: #fff;
 }
 
 .Community .communityTwo {
-  padding: 14.25rem 150px 10rem 250px;
-
+  padding: 6rem 150px 10rem 250px;
   color: #000;
 }
 
 .Community .communityThree {
-  padding: 14.25rem 150px 10rem 250px;
+  padding: 6rem 150px 10rem 250px;
   background: #0f9fc7;
-
   color: #fff;
 }
 
+.communityTwo h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
 .communityThree h1 {
+  font-family: "Ubuntu", sans-serif;
   text-align: right;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.Community .container {
+  display: flex;
+  justify-content: ;
+}
+
+.communityOne a {
+  color: #fff;
+}
+
+.communityOne a:hover {
+  text-decoration: underline;
 }
