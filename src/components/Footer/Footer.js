@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Button } from "react-bulma-components";
 import "./Footer.css";
 
 export default function Footer() {
@@ -29,13 +28,14 @@ export default function Footer() {
                 <li>
                   <Link to="/events">Events</Link>
                 </li>
+                <li>
+                  <Link to="/contact">Contacts</Link>
+                </li>
               </ul>
             </nav>
           </div>
+
           <div className="boxTwo">
-            <Button>Contact</Button>
-          </div>
-          <div className="boxThree">
             <ul>
               <li>
                 <Link to="/">Poop</Link>

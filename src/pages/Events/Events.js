@@ -8,14 +8,10 @@ export default function Events() {
         <h1>Petitions</h1>
         <div className="petitions">
           <p>
-            <a href="/">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </a>
+            <a href="/">Lorem ipsum dolor sit amet.</a>
           </p>
           <p>
-            <a href="/">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </a>
+            <a href="/">Lorem ipsum dolor sit amet.</a>
           </p>
         </div>
       </section>
@@ -23,14 +19,10 @@ export default function Events() {
         <h1>Activations</h1>
         <div className="activations">
           <p>
-            <a href="/">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </a>
+            <a href="/">Lorem ipsum dolor sit amet.</a>
           </p>
           <p>
-            <a href="/">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </a>
+            <a href="/">Lorem ipsum dolor sit amet.</a>
           </p>
         </div>
       </section>
@@ -41,24 +33,16 @@ export default function Events() {
             <h2>Petitions</h2>
             <div className="leftUrls">
               <p>
-                <a href="/">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </a>
+                <a href="/">Lorem ipsum dolor sit amet.</a>
               </p>
               <p>
-                <a href="/">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </a>
+                <a href="/">Lorem ipsum dolor sit amet.</a>
               </p>
               <p>
-                <a href="/">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </a>
+                <a href="/">Lorem ipsum dolor sit amet.</a>
               </p>
               <p>
-                <a href="/">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </a>
+                <a href="/">Lorem ipsum dolor sit amet.</a>
               </p>
             </div>
           </div>
@@ -66,24 +50,16 @@ export default function Events() {
             <h2>Activations</h2>
             <div className="rightUrls">
               <p>
-                <a href="/">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </a>
+                <a href="/">Lorem ipsum dolor sit amet.</a>
               </p>
               <p>
-                <a href="/">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </a>
+                <a href="/">Lorem ipsum dolor sit amet.</a>
               </p>
               <p>
-                <a href="/">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </a>
+                <a href="/">Lorem ipsum dolor sit amet.</a>
               </p>
               <p>
-                <a href="/">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </a>
+                <a href="/">Lorem ipsum dolor sit amet.</a>
               </p>
             </div>
           </div>

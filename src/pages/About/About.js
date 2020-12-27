@@ -45,6 +45,15 @@ export default function About() {
       </section>
       <section className="aboutThree">
         <div className="containerTwo">
+          <div className="imageTwo">
+            <figure className="image is-128x128">
+              <img
+                className="is-rounded"
+                src="https://bulma.io/images/placeholders/128x128.png"
+                alt="portrait"
+              />
+            </figure>
+          </div>
           <div className="bioTwo">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -58,15 +67,6 @@ export default function About() {
               Phasellus quis risus non erat aliquet mattis. Aliquam eleifend
               quis nibh laoreet euismod.
             </p>
-          </div>
-          <div className="imageTwo">
-            <figure className="image is-128x128">
-              <img
-                className="is-rounded"
-                src="https://bulma.io/images/placeholders/128x128.png"
-                alt="portrait"
-              />
-            </figure>
           </div>
         </div>
       </section>
@@ -87,10 +87,7 @@ export default function About() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse scelerisque non velit in aliquam. Sed feugiat, arcu
                 et porta iaculis, erat ligula iaculis dolor, vitae eleifend
-                massa metus sed mi. Morbi semper dolor at quam faucibus, in
-                fermentum leo pellentesque. Integer vel gravida ligula, ac
-                tristique odio. Cras vehicula condimentum sollicitudin.
-                Pellentesque eu semper magna.
+                massa metus sed mi.
               </p>
             </div>
           </div>
@@ -109,10 +106,7 @@ export default function About() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse scelerisque non velit in aliquam. Sed feugiat, arcu
                 et porta iaculis, erat ligula iaculis dolor, vitae eleifend
-                massa metus sed mi. Morbi semper dolor at quam faucibus, in
-                fermentum leo pellentesque. Integer vel gravida ligula, ac
-                tristique odio. Cras vehicula condimentum sollicitudin.
-                Pellentesque eu semper magna.
+                massa metus sed mi.
               </p>
             </div>
           </div>
@@ -131,10 +125,7 @@ export default function About() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse scelerisque non velit in aliquam. Sed feugiat, arcu
                 et porta iaculis, erat ligula iaculis dolor, vitae eleifend
-                massa metus sed mi. Morbi semper dolor at quam faucibus, in
-                fermentum leo pellentesque. Integer vel gravida ligula, ac
-                tristique odio. Cras vehicula condimentum sollicitudin.
-                Pellentesque eu semper magna.
+                massa metus sed mi.
               </p>
             </div>
           </div>
