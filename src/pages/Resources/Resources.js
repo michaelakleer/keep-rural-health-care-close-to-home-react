@@ -39,7 +39,7 @@ export default function Resources() {
         </div>
       </section>
       <section className="resourcesThree">
-        <div className="container">
+        <div className="containerOne">
           <div className="report">
             <figure class="image is-128x128">
               <img

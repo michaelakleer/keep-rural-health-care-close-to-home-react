@@ -28,7 +28,7 @@ export default function Events() {
       </section>
       <section className="eventsThree">
         <h1>Past Events</h1>
-        <div className="container">
+        <div className="containerOne">
           <div className="left">
             <h2>Petitions</h2>
             <div className="leftUrls">

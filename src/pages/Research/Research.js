@@ -13,12 +13,11 @@ export default function Research() {
           accumsan. Proin euismod scelerisque nisi vitae lacinia. Nam ac
           sollicitudin nisl, ut bibendum elit. Vestibulum quis lorem tristique,
           mollis ligula quis, scelerisque justo. Donec eu ipsum id nunc mollis
-          pharetra ut eget ligula. Curabitur quis tincidunt metus, eget
-          pellentesque massa.
+          pharetra ut eget ligula.
         </h1>
       </section>
       <section className="researchTwo">
-        <div className="container">
+        <div className="containerOne">
           <div className="report">
             <figure class="image is-128x128">
               <img

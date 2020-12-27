@@ -38,16 +38,16 @@ export default function Footer() {
           <div className="boxTwo">
             <ul>
               <li>
-                <Link to="/">Poop</Link>
+                <Link to="/">Lorem</Link>
               </li>
               <li>
-                <Link to="/">Fart</Link>
+                <Link to="/">Lorem</Link>
               </li>
               <li>
-                <Link to="/">Pee</Link>
+                <Link to="/">Lorem</Link>
               </li>
               <li>
-                <Link to="/">Bidet</Link>
+                <Link to="/">Lorem</Link>
               </li>
             </ul>
           </div>

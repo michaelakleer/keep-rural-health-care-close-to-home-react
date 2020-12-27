@@ -18,10 +18,10 @@ export default function Home() {
       </section>
       <section>
         <section className="homeTwo">
-          <div>Hi poop</div>
+          <div>Downloadable pdfs</div>
         </section>
         <section className="homeThree">
-          <div>Hello!</div>
+          <div>Events</div>
         </section>
       </section>
       <section className="homeFour">
