@@ -1,73 +1,227 @@
-.Events .eventsOne {
-  padding: 8rem 150px 3rem 250px;
-  background: #0f9fc7;
+@media (min-width: 1025px) {
+  .Events .eventsOne {
+    padding: 8rem 250px 3rem 250px;
+    background: #0f9fc7;
+  }
+
+  .Events .eventsTwo {
+    padding: 4rem 250px 4rem 250px;
+  }
+
+  .Events .eventsThree {
+    padding: 4rem 250px 10rem 250px;
+    background: #0f9fc7;
+  }
+
+  .eventsOne h1,
+  .eventsThree h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    text-decoration: underline;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .eventsTwo h1 {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .eventsOne p,
+  .eventsTwo p,
+  .eventsThree p {
+    text-align: center;
+    line-height: 40px;
+  }
+
+  .eventsOne a,
+  .eventsThree a {
+    color: #fff;
+  }
+
+  .eventsTwo a {
+    color: #000;
+  }
+
+  .Events a:hover {
+    text-decoration: underline;
+  }
+
+  .eventsOne .petitions,
+  .eventsTwo .activations,
+  .eventsThree .left,
+  .eventsThree .right {
+    margin-top: 25px;
+  }
+
+  .Events .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .Events h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .Events .leftUrls,
+  .Events .rightUrls {
+    margin-top: 10px;
+  }
 }
 
-.Events .eventsTwo {
-  padding: 4rem 150px 4rem 250px;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Events .eventsOne {
+    padding: 8rem 50px 3rem 50px;
+    background: #0f9fc7;
+  }
+
+  .Events .eventsTwo {
+    padding: 4rem 50px 4rem 50px;
+  }
+
+  .Events .eventsThree {
+    padding: 4rem 50px 10rem 50px;
+    background: #0f9fc7;
+  }
+
+  .eventsOne h1,
+  .eventsThree h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    text-decoration: underline;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .eventsTwo h1 {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .eventsOne p,
+  .eventsTwo p,
+  .eventsThree p {
+    text-align: center;
+    line-height: 40px;
+  }
+
+  .eventsOne a,
+  .eventsThree a {
+    color: #fff;
+  }
+
+  .eventsTwo a {
+    color: #000;
+  }
+
+  .Events a:hover {
+    text-decoration: underline;
+  }
+
+  .eventsOne .petitions,
+  .eventsTwo .activations,
+  .eventsThree .left,
+  .eventsThree .right {
+    margin-top: 25px;
+  }
+
+  .Events .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .Events h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .Events .leftUrls,
+  .Events .rightUrls {
+    margin-top: 10px;
+  }
 }
 
-.Events .eventsThree {
-  padding: 4rem 150px 10rem 250px;
-  background: #0f9fc7;
-}
+@media (max-width: 767px) {
+  .Events .eventsOne {
+    padding: 9rem 50px 4rem 50px;
+    background: #0f9fc7;
+  }
 
-.eventsOne h1,
-.eventsThree h1 {
-  text-align: center;
-  font-size: 35px;
-  color: #fff;
-  text-decoration: underline;
-  font-family: "Ubuntu", sans-serif;
-}
+  .Events .eventsTwo {
+    padding: 4rem 50px 4rem 50px;
+  }
 
-.eventsTwo h1 {
-  text-align: center;
-  font-size: 35px;
-  text-decoration: underline;
-  font-family: "Ubuntu", sans-serif;
-}
+  .Events .eventsThree {
+    padding: 4rem 50px 4rem 50px;
+    background: #0f9fc7;
+  }
 
-.eventsOne p,
-.eventsTwo p,
-.eventsThree p {
-  text-align: center;
-  line-height: 40px;
-}
+  .eventsOne h1,
+  .eventsThree h1 {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: underline;
+    font-family: "Ubuntu", sans-serif;
+  }
 
-.eventsOne a,
-.eventsThree a {
-  color: #fff;
-}
+  .eventsTwo h1 {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: "Ubuntu", sans-serif;
+  }
 
-.eventsTwo a {
-  color: #000;
-}
+  .eventsOne p,
+  .eventsTwo p,
+  .eventsThree p {
+    text-align: center;
+    line-height: 40px;
+  }
 
-.Events a:hover {
-  text-decoration: underline;
-}
+  .eventsOne a,
+  .eventsThree a {
+    color: #fff;
+  }
 
-.eventsOne .petitions,
-.eventsTwo .activations,
-.eventsThree .left,
-.eventsThree .right {
-  margin-top: 25px;
-}
+  .eventsTwo a {
+    color: #000;
+  }
 
-.Events .container {
-  display: flex;
-  justify-content: space-evenly;
-}
+  .Events a:hover {
+    text-decoration: underline;
+  }
 
-.Events h2 {
-  text-align: center;
-  font-size: 25px;
-  color: #fff;
-  font-family: "Ubuntu", sans-serif;
-}
+  .eventsOne .petitions,
+  .eventsTwo .activations,
+  .eventsThree .left,
+  .eventsThree .right {
+    margin-top: 25px;
+  }
 
-.Events .leftUrls,
-.Events .rightUrls {
-  margin-top: 10px;
+  .Events .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Events h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .Events .leftUrls,
+  .Events .rightUrls {
+    margin-top: 10px;
+  }
 }

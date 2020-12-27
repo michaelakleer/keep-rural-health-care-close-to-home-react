@@ -1,9 +1,35 @@
-.Contact .contactOne {
-  padding: 14.25rem 200px 10rem 250px;
-  text-align: center;
-  background: #0f9fc7;
+@media (min-width: 1025px) {
+  .Contact .contactOne {
+    padding: 14.25rem 200px 10rem 250px;
+    text-align: center;
+    background: #0f9fc7;
+  }
+
+  .Contact h2 {
+    color: #fff;
+  }
 }
 
-.Contact h2 {
-  color: #fff;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Contact .contactOne {
+    padding: 14.25rem 50px 10rem 50px;
+    text-align: center;
+    background: #0f9fc7;
+  }
+
+  .Contact h2 {
+    color: #fff;
+  }
+}
+
+@media (max-width: 767px) {
+  .Contact .contactOne {
+    padding: 8rem 50px 4rem 50px;
+    text-align: center;
+    background: #0f9fc7;
+  }
+
+  .Contact h2 {
+    color: #fff;
+  }
 }

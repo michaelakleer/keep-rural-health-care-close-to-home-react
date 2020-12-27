@@ -1,43 +1,142 @@
-.Community .communityOne {
-  padding: 14.25rem 150px 10rem 250px;
-  text-align: center;
-  background: #0f9fc7;
-  color: #fff;
+@media (min-width: 1025px) {
+  .Community .communityOne {
+    padding: 14.25rem 0 10rem 0;
+    text-align: center;
+    background: #0f9fc7;
+    color: #fff;
+  }
+
+  .Community .communityTwo {
+    padding: 6rem 0 10rem 0;
+    color: #000;
+  }
+
+  .Community .communityThree {
+    padding: 6rem 0 10rem 0;
+    background: #0f9fc7;
+    color: #fff;
+  }
+
+  .communityTwo h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 25px;
+    margin: 0 0 30px 100px;
+  }
+
+  .communityThree h1 {
+    font-family: "Ubuntu", sans-serif;
+    text-align: right;
+    font-size: 25px;
+    margin: 0 100px 30px 0;
+  }
+
+  .Community .containerOne {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .communityOne a {
+    color: #fff;
+  }
+
+  .communityOne a:hover {
+    text-decoration: underline;
+  }
 }
 
-.Community .communityTwo {
-  padding: 6rem 150px 10rem 250px;
-  color: #000;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Community .communityOne {
+    padding: 12rem 0 8rem 0;
+    text-align: center;
+    background: #0f9fc7;
+    color: #fff;
+  }
+
+  .Community .communityTwo {
+    padding: 6rem 50px 6rem 50px;
+    color: #000;
+  }
+
+  .Community .communityThree {
+    padding: 6rem 50px 6rem 50px;
+    background: #0f9fc7;
+    color: #fff;
+  }
+
+  .communityTwo h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 25px;
+    margin: 0 0 30px 100px;
+  }
+
+  .communityThree h1 {
+    font-family: "Ubuntu", sans-serif;
+    text-align: right;
+    font-size: 25px;
+    margin: 0 100px 30px 0;
+  }
+
+  .Community .containerOne {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .communityOne a {
+    color: #fff;
+  }
+
+  .communityOne a:hover {
+    text-decoration: underline;
+  }
+
+  .communityOne li {
+    line-height: 50px;
+  }
 }
 
-.Community .communityThree {
-  padding: 6rem 150px 10rem 250px;
-  background: #0f9fc7;
-  color: #fff;
-}
+@media (max-width: 767px) {
+  .Community .communityOne {
+    padding: 8rem 0 3rem 0;
+    text-align: center;
+    background: #0f9fc7;
+    color: #fff;
+  }
 
-.communityTwo h1 {
-  font-family: "Ubuntu", sans-serif;
-  font-size: 25px;
-  margin-bottom: 30px;
-}
+  .Community .communityTwo {
+    padding: 3rem 50px 3rem 50px;
+    color: #000;
+  }
 
-.communityThree h1 {
-  font-family: "Ubuntu", sans-serif;
-  text-align: right;
-  font-size: 25px;
-  margin-bottom: 30px;
-}
+  .Community .communityThree {
+    padding: 3rem 50px 3rem 50px;
+    background: #0f9fc7;
+    color: #fff;
+  }
 
-.Community .container {
-  display: flex;
-  justify-content: ;
-}
+  .communityTwo h1,
+  .communityThree h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
 
-.communityOne a {
-  color: #fff;
-}
+  .Community .containerOne {
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+    text-align: center;
+  }
 
-.communityOne a:hover {
-  text-decoration: underline;
+  .communityOne a {
+    color: #fff;
+  }
+
+  .communityOne a:hover {
+    text-decoration: underline;
+  }
+
+  .communityOne li {
+    line-height: 50px;
+  }
 }

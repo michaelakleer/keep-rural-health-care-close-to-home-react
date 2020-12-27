@@ -1,36 +1,117 @@
-.Resources .resourcesOne {
-  padding: 10rem 250px 6rem 250px;
-  background: #0f9fc7;
-  color: #fff;
+@media (min-width: 1025px) {
+  .Resources .resourcesOne {
+    padding: 10rem 250px 6rem 250px;
+    background: #0f9fc7;
+    color: #fff;
+  }
+
+  .Resources .resourcesTwo {
+    padding: 4.5rem 250px 6rem 250px;
+  }
+
+  .Resources h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .Resources .url {
+    margin-top: 20px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .Resources .resourcesThree {
+    padding: 30px;
+    background: #0f9fc7;
+  }
+
+  .Resources .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .Resources .image {
+    margin: 0 auto;
+  }
 }
 
-.Resources .resourcesTwo {
-  padding: 4.5rem 250px 6rem 250px;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Resources .resourcesOne {
+    padding: 8rem 50px 6rem 50px;
+    background: #0f9fc7;
+    color: #fff;
+  }
+
+  .Resources .resourcesTwo {
+    padding: 4.5rem 50px 6rem 50px;
+  }
+
+  .Resources h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .Resources .url {
+    margin-top: 20px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .Resources .resourcesThree {
+    padding: 30px;
+    background: #0f9fc7;
+  }
+
+  .Resources .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .Resources .image {
+    margin: 0 auto;
+  }
 }
 
-.Resources h1 {
-  font-family: "Ubuntu", sans-serif;
-  font-size: 30px;
-  text-align: center;
-}
+@media (max-width: 767px) {
+  .Resources .resourcesOne {
+    padding: 8rem 50px 3rem 50px;
+    background: #0f9fc7;
+    color: #fff;
+  }
 
-.Resources .url {
-  margin-top: 20px;
-  line-height: 30px;
-  display: flex;
-  justify-content: space-evenly;
-}
+  .Resources .resourcesTwo {
+    padding: 3rem 50px 3rem 50px;
+  }
 
-.Resources .resourcesThree {
-  padding: 30px;
-  background: #0f9fc7;
-}
+  .Resources h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }
 
-.Resources .container {
-  display: flex;
-  justify-content: space-evenly;
-}
+  .Resources .url {
+    margin-top: 20px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 
-.Resources .image {
-  margin: 0 auto;
+  .Resources .resourcesThree {
+    padding: 30px;
+    background: #0f9fc7;
+  }
+
+  .Resources .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .Resources .image {
+    margin: 0 auto;
+  }
 }

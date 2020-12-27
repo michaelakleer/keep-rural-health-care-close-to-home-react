@@ -1,25 +1,84 @@
-.Research .researchOne {
-  padding: 14.25rem 150px 10rem 250px;
-  text-align: right;
-  background: #0f9fc7;
-  line-height: 50px;
+@media (min-width: 1025px) {
+  .Research .researchOne {
+    padding: 14.25rem 150px 10rem 250px;
+    text-align: right;
+    background: #0f9fc7;
+    line-height: 50px;
+  }
+
+  .Research h1 {
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+  }
+
+  .Research .researchTwo {
+    padding: 30px;
+  }
+
+  .Research .container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .Research .image {
+    margin: 0 auto;
+  }
 }
 
-.Research h1 {
-  color: #fff;
-  font-family: "Ubuntu", sans-serif;
-  font-size: 30px;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Research .researchOne {
+    padding: 10rem 100px 6rem 100px;
+    text-align: right;
+    background: #0f9fc7;
+    line-height: 50px;
+  }
+
+  .Research h1 {
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 25px;
+  }
+
+  .Research .researchTwo {
+    padding: 30px;
+  }
+
+  .Research .container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .Research .image {
+    margin: 0 auto;
+  }
 }
 
-.Research .researchTwo {
-  padding: 30px;
-}
+@media (max-width: 767px) {
+  .Research .researchOne {
+    padding: 7rem 18px 3rem 18px;
+    text-align: center;
+    background: #0f9fc7;
+    line-height: 40px;
+  }
 
-.Research .container {
-  display: flex;
-  justify-content: space-around;
-}
+  .Research h1 {
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+  }
 
-.Research .image {
-  margin: 0 auto;
+  .Research .researchTwo {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .Research .container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .Research .image {
+    margin: 0 auto;
+  }
 }

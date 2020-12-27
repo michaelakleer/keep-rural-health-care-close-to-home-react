@@ -1,91 +1,282 @@
-.Home .homeOne {
-  padding: 18.25rem 150px 14rem 250px;
-  text-align: right;
-  background: #0f9fc7;
-  line-height: 50px;
+@media (min-width: 1025px) {
+  .Home .homeOne {
+    padding: 18.25rem 150px 14rem 250px;
+    text-align: right;
+    background: #0f9fc7;
+    line-height: 50px;
+  }
+
+  .Home .homeTwo {
+    background: #fff;
+    padding: 30px;
+    text-align: right;
+  }
+
+  .Home .homeThree {
+    background: #fff;
+    padding: 30px;
+    border-left: 1px solid #282d33;
+  }
+
+  .Home .homeFour {
+    padding: 23rem 150px 14rem 150px;
+    background: #0f9fc7;
+    color: #282d33;
+  }
+
+  .Home h1 {
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+  }
+
+  .Home .homeTwo,
+  .Home .homeThree {
+    float: left;
+    width: 50%;
+    padding: 130px 150px;
+    color: #fff;
+  }
+
+  .Home .newsOne,
+  .Home .newsTwo,
+  .Home .newsThree {
+    margin: 30px 0;
+    padding: 40px 30px;
+    background: #fff;
+    line-height: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .Home p {
+    font-family: "Arimo", sans-serif;
+  }
+
+  .Home h2 {
+    font-family: "Ubuntu", sans-serif;
+    margin-bottom: 15px;
+    text-decoration: underline;
+  }
+
+  .Home a {
+    text-decoration: none;
+    padding: 35px 25px;
+  }
+
+  .Home .container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .Home .boxOne,
+  .Home .boxTwo,
+  .Home .boxThree {
+    color: #fff;
+  }
+
+  .Home .boxThree a {
+    color: #fff;
+    line-height: 35px;
+  }
+
+  .Home .boxThree a:hover {
+    text-decoration: underline;
+  }
+
+  .Home .button {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .Home .button:hover {
+    background: #d3d3d3;
+    transition: 250ms all ease-in-out;
+  }
 }
 
-.Home .homeTwo {
-  background: #a1dcf7;
-  padding: 30px;
-  text-align: right;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Home .homeOne {
+    padding: 10rem 100px 6rem 100px;
+    text-align: center;
+    background: #0f9fc7;
+    line-height: 40px;
+  }
+
+  .Home .homeTwo {
+    background: #a1dcf7;
+    padding: 30px;
+    text-align: right;
+  }
+
+  .Home .homeThree {
+    background: #afa5e8;
+    padding: 30px;
+  }
+
+  .Home .homeFour {
+    padding: 10rem 50px 6rem 50px;
+    background: #0f9fc7;
+    color: #282d33;
+  }
+
+  .Home h1 {
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+  }
+
+  .Home .homeTwo,
+  .Home .homeThree {
+    float: left;
+    width: 50%;
+    color: #fff;
+  }
+
+  .Home .newsOne,
+  .Home .newsTwo,
+  .Home .newsThree {
+    margin: 30px 0;
+    padding: 40px 30px;
+    background: #fff;
+    line-height: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+  }
+
+  .Home p {
+    font-family: "Arimo", sans-serif;
+  }
+
+  .Home h2 {
+    font-family: "Ubuntu", sans-serif;
+    margin-bottom: 15px;
+    text-decoration: underline;
+  }
+
+  .Home a {
+    text-decoration: none;
+    padding: 35px 25px;
+  }
+
+  .Home .container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .Home .boxOne,
+  .Home .boxTwo,
+  .Home .boxThree {
+    color: #fff;
+  }
+
+  .Home .boxThree a {
+    color: #fff;
+    line-height: 35px;
+  }
+
+  .Home .boxThree a:hover {
+    text-decoration: underline;
+  }
+
+  .Home .button {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .Home .button:hover {
+    background: #d3d3d3;
+    transition: 250ms all ease-in-out;
+  }
 }
 
-.Home .homeThree {
-  background: #afa5e8;
-  padding: 30px;
-}
+@media (max-width: 767px) {
+  .Home .homeOne {
+    padding: 8rem 18px 3rem 18px;
+    text-align: center;
+    background: #0f9fc7;
+    line-height: 40px;
+  }
 
-.Home .homeFour {
-  padding: 23rem 150px 14rem 150px;
-  background: #0f9fc7;
-  color: #282d33;
-}
+  .Home .homeTwo {
+    background: #a1dcf7;
+    padding: 50px;
+    text-align: right;
+  }
 
-.Home h1 {
-  color: #fff;
-  font-family: "Ubuntu", sans-serif;
-  font-size: 30px;
-}
+  .Home .homeThree {
+    background: #afa5e8;
+    padding: 50px;
+  }
 
-.Home .homeTwo,
-.Home .homeThree {
-  float: left;
-  width: 50%;
-  padding: 130px 150px;
-  color: #fff;
-}
+  .Home .homeFour {
+    padding: 10rem 25px 6rem 25px;
+    background: #0f9fc7;
+    color: #282d33;
+  }
 
-.Home .newsOne,
-.Home .newsTwo,
-.Home .newsThree {
-  margin: 30px 0;
-  padding: 40px 30px;
-  background: #fff;
-  line-height: 25px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-}
+  .Home h1 {
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+  }
 
-.Home p {
-  font-family: "Arimo", sans-serif;
-}
+  .Home .homeTwo,
+  .Home .homeThree {
+    float: left;
+    width: 50%;
+    color: #fff;
+  }
 
-.Home h2 {
-  font-family: "Ubuntu", sans-serif;
-  margin-bottom: 15px;
-  text-decoration: underline;
-}
+  .Home .newsOne,
+  .Home .newsTwo,
+  .Home .newsThree {
+    margin: 30px 0;
+    padding: 40px 30px;
+    background: #fff;
+    line-height: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+  }
 
-.Home a {
-  text-decoration: none;
-  padding: 35px 25px;
-}
+  .Home p {
+    font-family: "Arimo", sans-serif;
+  }
 
-.Home .container {
-  display: flex;
-  justify-content: space-around;
-}
+  .Home h2 {
+    font-family: "Ubuntu", sans-serif;
+    margin-bottom: 15px;
+    text-decoration: underline;
+  }
 
-.Home .boxOne,
-.Home .boxTwo,
-.Home .boxThree {
-  color: #fff;
-}
+  .Home a {
+    text-decoration: none;
+    padding: 35px 25px;
+  }
 
-.Home .boxThree a {
-  color: #fff;
-  line-height: 35px;
-}
+  .Home .container {
+    display: flex;
+    justify-content: space-around;
+  }
 
-.Home .boxThree a:hover {
-  text-decoration: underline;
-}
+  .Home .boxOne,
+  .Home .boxTwo,
+  .Home .boxThree {
+    color: #fff;
+  }
 
-.Home .button {
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-}
+  .Home .boxThree a {
+    color: #fff;
+    line-height: 35px;
+  }
 
-.Home .button:hover {
-  background: #d3d3d3;
-  transition: 250ms all ease-in-out;
+  .Home .boxThree a:hover {
+    text-decoration: underline;
+  }
+
+  .Home .button {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .Home .button:hover {
+    background: #d3d3d3;
+    transition: 250ms all ease-in-out;
+  }
 }

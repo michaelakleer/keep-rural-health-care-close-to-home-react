@@ -1,69 +1,225 @@
-.About .aboutOne {
-  padding: 14.25rem 150px 10rem 250px;
-  text-align: right;
-  background: #0f9fc7;
-  line-height: 50px;
+@media (min-width: 1025px) {
+  .About .aboutOne {
+    padding: 14.25rem 150px 10rem 250px;
+    text-align: right;
+    background: #0f9fc7;
+    line-height: 50px;
+  }
+
+  .About .aboutTwo {
+    padding: 30px;
+  }
+
+  .About .aboutThree {
+    padding: 30px;
+    background: #0f9fc7;
+  }
+
+  .About h1 {
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+  }
+
+  .About .containerOne {
+    display: flex;
+  }
+
+  .About .bioOne {
+    margin-left: 20px;
+    text-align: justify;
+  }
+
+  .About .imageOne,
+  .About .imageTwo {
+    margin-right: 5px;
+  }
+
+  .About .containerTwo {
+    display: flex;
+  }
+
+  .About .bioTwo {
+    text-align: justify;
+    margin-left: 20px;
+    color: #fff;
+  }
+
+  .About .containerThree {
+    display: flex;
+    margin: 20px;
+  }
+
+  .About .imgRow {
+    margin: 0 auto;
+  }
+
+  .About .bioBox {
+    margin: 5px;
+
+    padding: 30px;
+    border-radius: 5px;
+  }
+
+  .About .imageThree,
+  .About .imageFour,
+  .About .imageFive {
+    margin-bottom: 8px;
+  }
+
+  .containerThree p {
+    text-align: justify;
+  }
 }
 
-.About .aboutTwo {
-  padding: 30px;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .About .aboutOne {
+    padding: 10rem 100px 6rem 100px;
+    text-align: center;
+    background: #0f9fc7;
+    line-height: 40px;
+  }
+
+  .About .aboutTwo {
+    padding: 30px;
+  }
+
+  .About .aboutThree {
+    padding: 30px;
+    background: #0f9fc7;
+  }
+
+  .About h1 {
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+  }
+
+  .About .containerOne {
+    display: flex;
+  }
+
+  .About .bioOne {
+    margin-left: 20px;
+  }
+
+  .About .imageOne,
+  .About .imageTwo {
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+
+  .About .containerTwo {
+    display: flex;
+  }
+
+  .About .bioTwo {
+    text-align: justify;
+    margin-left: 20px;
+    color: #fff;
+  }
+
+  .About .containerThree {
+    display: flex;
+    margin: 5px;
+  }
+
+  .About .imgRow {
+    margin: 0 auto;
+  }
+
+  .About .bioBox {
+    margin: 5px;
+    padding: 30px;
+  }
+
+  .About .imageThree,
+  .About .imageFour,
+  .About .imageFive {
+    margin-bottom: 8px;
+  }
+
+  .containerThree p {
+    text-align: justify;
+  }
 }
 
-.About .aboutThree {
-  padding: 30px;
-  background: #0f9fc7;
-}
+@media (max-width: 767px) {
+  .About .aboutOne {
+    padding: 7rem 18px 3rem 18px;
+    text-align: center;
+    background: #0f9fc7;
+    line-height: 40px;
+  }
 
-.About h1 {
-  color: #fff;
-  font-family: "Ubuntu", sans-serif;
-  font-size: 30px;
-}
+  .About .aboutTwo {
+    padding: 30px;
+  }
 
-.About .containerOne {
-  display: flex;
-}
+  .About .aboutThree {
+    padding: 30px;
+    background: #0f9fc7;
+  }
 
-.About .bioOne {
-  margin-left: 20px;
-}
+  .About h1 {
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+  }
 
-.About .imageOne {
-  margin-right: 5px;
-}
+  .About .containerOne {
+    display: flex;
+    flex-direction: column;
+  }
 
-.About .containerTwo {
-  display: flex;
-}
+  .About .bioOne {
+    margin-left: 20px;
+    padding-top: 20px;
+    text-align: justify;
+  }
 
-.About .bioTwo {
-  text-align: right;
-  margin-right: 20px;
-  color: #fff;
-}
+  .About .imageOne {
+    margin: 0 auto;
+  }
 
-.About .imageTwo {
-  margin-left: 5px;
-}
+  .About .containerTwo {
+    display: flex;
+    flex-direction: column;
+  }
 
-.About .containerThree {
-  display: flex;
-  margin: 20px;
-}
+  .About .bioTwo {
+    text-align: justify;
+    padding-top: 20px;
+    margin-right: 20px;
+    color: #fff;
+  }
 
-.About .imgRow {
-  margin: 0 auto;
-}
+  .About .imageTwo {
+    margin: 0 auto;
+  }
 
-.About .bioBox {
-  margin: 5px;
-  background: #0f9fc7;
-  padding: 10px;
-  border-radius: 5px;
-}
+  .About .containerThree {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+  }
 
-.About .imageThree,
-.About .imageFour,
-.About .imageFive {
-  margin-bottom: 8px;
+  .About .imgRow {
+    margin: 0 auto;
+  }
+
+  .About .bioBox {
+    margin: 5px;
+    padding: 10px;
+  }
+
+  .About .imageThree,
+  .About .imageFour,
+  .About .imageFive {
+    margin-bottom: 8px;
+  }
+
+  .containerThree p {
+    text-align: justify;
+  }
 }
