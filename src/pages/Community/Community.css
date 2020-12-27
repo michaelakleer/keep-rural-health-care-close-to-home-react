@@ -53,12 +53,12 @@
   }
 
   .Community .communityTwo {
-    padding: 6rem 50px 6rem 50px;
+    padding: 5rem 50px 5rem 50px;
     color: #000;
   }
 
   .Community .communityThree {
-    padding: 6rem 50px 6rem 50px;
+    padding: 5rem 50px 5rem 50px;
     background: #0f9fc7;
     color: #fff;
   }
@@ -66,14 +66,15 @@
   .communityTwo h1 {
     font-family: "Ubuntu", sans-serif;
     font-size: 25px;
-    margin: 0 0 30px 100px;
+    text-align: center;
+    margin-bottom: 30px;
   }
 
   .communityThree h1 {
     font-family: "Ubuntu", sans-serif;
-    text-align: right;
+    text-align: center;
     font-size: 25px;
-    margin: 0 100px 30px 0;
+    margin-bottom: 30px;
   }
 
   .Community .containerOne {
@@ -96,7 +97,7 @@
 
 @media (max-width: 767px) {
   .Community .communityOne {
-    padding: 8rem 0 3rem 0;
+    padding: 9rem 0 4rem 0;
     text-align: center;
     background: #0f9fc7;
     color: #fff;

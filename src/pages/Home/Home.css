@@ -102,18 +102,20 @@
   }
 
   .Home .homeTwo {
-    background: #a1dcf7;
-    padding: 30px;
-    text-align: right;
+    background: #fff;
+    padding: 60px 0;
+    text-align: center;
   }
 
   .Home .homeThree {
-    background: #afa5e8;
-    padding: 30px;
+    background: #fff;
+    padding: 100px 0;
+    border-top: 1px solid #282d33;
+    text-align: center;
   }
 
   .Home .homeFour {
-    padding: 10rem 50px 6rem 50px;
+    padding: 6rem 50px 6rem 50px;
     background: #0f9fc7;
     color: #282d33;
   }
@@ -122,13 +124,6 @@
     color: #fff;
     font-family: "Ubuntu", sans-serif;
     font-size: 30px;
-  }
-
-  .Home .homeTwo,
-  .Home .homeThree {
-    float: left;
-    width: 50%;
-    color: #fff;
   }
 
   .Home .newsOne,
@@ -196,18 +191,20 @@
   }
 
   .Home .homeTwo {
-    background: #a1dcf7;
+    background: #fff;
     padding: 50px;
-    text-align: right;
+    text-align: center;
   }
 
   .Home .homeThree {
-    background: #afa5e8;
+    background: #fff;
     padding: 50px;
+    border-top: 1px solid #282d33;
+    text-align: center;
   }
 
   .Home .homeFour {
-    padding: 10rem 25px 6rem 25px;
+    padding: 5rem 25px 5rem 25px;
     background: #0f9fc7;
     color: #282d33;
   }
@@ -216,13 +213,6 @@
     color: #fff;
     font-family: "Ubuntu", sans-serif;
     font-size: 20px;
-  }
-
-  .Home .homeTwo,
-  .Home .homeThree {
-    float: left;
-    width: 50%;
-    color: #fff;
   }
 
   .Home .newsOne,

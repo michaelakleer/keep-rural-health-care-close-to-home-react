@@ -56,7 +56,7 @@
     margin-top: 25px;
   }
 
-  .Events .container {
+  .Events .containerOne {
     display: flex;
     justify-content: space-evenly;
   }
@@ -85,7 +85,7 @@
   }
 
   .Events .eventsThree {
-    padding: 4rem 50px 10rem 50px;
+    padding: 4rem 50px 4rem 50px;
     background: #0f9fc7;
   }
 
@@ -132,7 +132,7 @@
     margin-top: 25px;
   }
 
-  .Events .container {
+  .Events .containerOne {
     display: flex;
     justify-content: space-evenly;
   }
@@ -208,7 +208,7 @@
     margin-top: 25px;
   }
 
-  .Events .container {
+  .Events .containerOne {
     display: flex;
     flex-direction: column;
   }
