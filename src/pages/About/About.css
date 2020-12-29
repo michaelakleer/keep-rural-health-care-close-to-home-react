@@ -27,6 +27,7 @@
 
   .About .bioOne {
     margin-left: 20px;
+    padding-top: 20px;
     text-align: justify;
   }
 
@@ -42,6 +43,7 @@
   .About .bioTwo {
     text-align: justify;
     margin-left: 20px;
+    padding-top: 20px;
     color: #fff;
   }
 

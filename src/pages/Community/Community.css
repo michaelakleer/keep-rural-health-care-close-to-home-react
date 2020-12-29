@@ -21,11 +21,12 @@
     font-family: "Ubuntu", sans-serif;
     font-size: 25px;
     margin: 0 0 30px 100px;
+    text-align: center;
   }
 
   .communityThree h1 {
     font-family: "Ubuntu", sans-serif;
-    text-align: right;
+    text-align: center;
     font-size: 25px;
     margin: 0 100px 30px 0;
   }
