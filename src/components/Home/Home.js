@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "react-bulma-components";
+import News from "./../News/News";
+
 import "./Home.css";
 
 export default function Home() {
@@ -24,6 +26,7 @@ export default function Home() {
           <div>Events</div>
         </section>
       </section>
+      <News />
       <section className="homeFour">
         <div className="newsOne">
           <h2>Lorem Ipsum</h2>
