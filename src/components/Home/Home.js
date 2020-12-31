@@ -26,7 +26,6 @@ export default function Home() {
           <div>Events</div>
         </section>
       </section>
-      <News />
       <section className="homeFour">
         <div className="newsOne">
           <h2>Lorem Ipsum</h2>
@@ -44,39 +43,8 @@ export default function Home() {
             feugiat eget ac libero.
           </p>
         </div>
-        <div className="newsTwo">
-          <h2>Lorem Ipsum</h2>
-          <p>
-            Etiam pellentesque tortor eu erat iaculis, a efficitur odio pretium.
-            Nunc sed justo lacus. Nam a faucibus tortor, quis venenatis ligula.
-            Curabitur fermentum ac dolor vel rhoncus. Pellentesque pretium neque
-            felis, in tempus lectus pellentesque eget. Vivamus a lobortis metus.
-            Donec vehicula lacinia turpis, quis tristique eros condimentum
-            sodales. Fusce aliquam justo vitae nulla tempus, nec tincidunt erat
-            elementum. Nullam at pulvinar turpis. Pellentesque facilisis ligula
-            id arcu accumsan, vitae auctor augue egestas. Fusce vitae ultricies
-            turpis. Nam a sodales urna. Vestibulum placerat ex eu ex euismod, in
-            consequat nulla accumsan. Pellentesque et neque vel est eleifend
-            feugiat eget ac libero.
-          </p>
-        </div>
-        <div className="newsThree">
-          <h2>Lorem Ipsum</h2>
-          <p>
-            Etiam pellentesque tortor eu erat iaculis, a efficitur odio pretium.
-            Nunc sed justo lacus. Nam a faucibus tortor, quis venenatis ligula.
-            Curabitur fermentum ac dolor vel rhoncus. Pellentesque pretium neque
-            felis, in tempus lectus pellentesque eget. Vivamus a lobortis metus.
-            Donec vehicula lacinia turpis, quis tristique eros condimentum
-            sodales. Fusce aliquam justo vitae nulla tempus, nec tincidunt erat
-            elementum. Nullam at pulvinar turpis. Pellentesque facilisis ligula
-            id arcu accumsan, vitae auctor augue egestas. Fusce vitae ultricies
-            turpis. Nam a sodales urna. Vestibulum placerat ex eu ex euismod, in
-            consequat nulla accumsan. Pellentesque et neque vel est eleifend
-            feugiat eget ac libero.
-          </p>
-        </div>
-        <Link>
+        <News />
+        <Link to="/archive">
           <Button className="button is-large is-fullwidth">Archive</Button>
         </Link>
       </section>
