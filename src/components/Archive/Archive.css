@@ -1,0 +1,13 @@
+.Archive {
+  background: #0f9fc7;
+  width: 100%;
+  min-height: 100vw;
+  background-size: cover;
+  padding: 130px 150px;
+}
+
+.Archive h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
