@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import axios from "axios";
+import "./NewsItem.css";
 
 export class NewsItem extends Component {
   state = {
@@ -35,18 +36,19 @@ export class NewsItem extends Component {
 
   render() {
     const { id, title, excerpt } = this.props.news;
-    const { author, imgUrl, isLoaded } = this.state;
+    const { author, isLoaded } = this.state;
     if (isLoaded) {
       return (
-        <div>
-          <h2 style={{ marginBottom: "0" }}>{title.rendered}</h2>
+        <div className="NewsItem">
+          <h2>{title.rendered}</h2>
           <small>
             Posted by <strong>{author}</strong>
           </small>
-          <img style={{ width: "100%" }} src={imgUrl} alt={title.rendered} />
-          <div dangerouslySetInnerHTML={{ __html: excerpt.rendered }} />
-          <Link to={`/news/${id}`}>News Article</Link>
-          <hr />
+          <div
+            className="excerpt"
+            dangerouslySetInnerHTML={{ __html: excerpt.rendered }}
+          />
+          <Link to={`/news/${id}`}>Read more</Link>
         </div>
       );
     }
