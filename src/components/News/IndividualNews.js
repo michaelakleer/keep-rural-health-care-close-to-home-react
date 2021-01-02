@@ -33,11 +33,13 @@ export class IndividualNews extends Component {
               Go Back
             </Link>
             <hr />
-            <h1>{news.title.rendered}</h1>
-            <div
-              dangerouslySetInnerHTML={{ __html: news.content.rendered }}
-            ></div>
-            <h4>Author: {news.acf.author}</h4>
+            <div className="newsArticle">
+              <h1>{news.title.rendered}</h1>
+              <div
+                dangerouslySetInnerHTML={{ __html: news.content.rendered }}
+              ></div>
+              <h4>Author: {news.acf.author}</h4>
+            </div>
           </div>
         </Fragment>
       );
