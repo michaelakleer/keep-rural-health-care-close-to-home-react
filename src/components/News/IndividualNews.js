@@ -29,7 +29,9 @@ export class IndividualNews extends Component {
       return (
         <Fragment>
           <div className="IndividualNews">
-            <Link to="/">Go Back</Link>
+            <Link to="/" className="return">
+              Go Back
+            </Link>
             <hr />
             <h1>{news.title.rendered}</h1>
             <div

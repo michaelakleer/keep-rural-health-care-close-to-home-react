@@ -5,3 +5,12 @@
   background-size: cover;
   padding: 130px 150px;
 }
+
+.IndividualNews .return {
+  color: #fff;
+}
+
+.IndividualNews .return:hover {
+  color: #fff;
+  text-decoration: underline;
+}
