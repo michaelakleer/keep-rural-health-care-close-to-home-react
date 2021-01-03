@@ -1,25 +1,83 @@
-.IndividualNews {
-  background: #0f9fc7;
-  width: 100%;
-  min-height: 52vw;
-  background-size: cover;
-  padding: 130px 150px;
+@media (min-width: 1025px) {
+  .IndividualNews {
+    background: #0f9fc7;
+    width: 100%;
+    min-height: 52vw;
+    background-size: cover;
+    padding: 130px 150px;
+  }
+
+  .IndividualNews .return {
+    color: #fff;
+  }
+
+  .IndividualNews .return:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .IndividualNews .newsArticle {
+    margin: 30px 0;
+    padding: 40px 30px;
+    background: #fff;
+    line-height: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+  }
 }
 
-.IndividualNews .return {
-  color: #fff;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .IndividualNews {
+    background: #0f9fc7;
+    width: 100%;
+    min-height: 52vw;
+    background-size: cover;
+    padding: 130px 80px;
+  }
+
+  .IndividualNews .return {
+    color: #fff;
+  }
+
+  .IndividualNews .return:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .IndividualNews .newsArticle {
+    margin: 30px 0;
+    padding: 40px 30px;
+    background: #fff;
+    line-height: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+  }
 }
 
-.IndividualNews .return:hover {
-  color: #fff;
-  text-decoration: underline;
-}
+@media (max-width: 767px) {
+  .IndividualNews {
+    background: #0f9fc7;
+    width: 100%;
+    min-height: 52vw;
+    background-size: cover;
+    padding: 130px 40px;
+  }
 
-.IndividualNews .newsArticle {
-  margin: 30px 0;
-  padding: 40px 30px;
-  background: #fff;
-  line-height: 25px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-  border-radius: 8px;
+  .IndividualNews .return {
+    color: #fff;
+  }
+
+  .IndividualNews .return:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .IndividualNews .newsArticle {
+    margin: 30px 0;
+    padding: 40px 30px;
+    background: #fff;
+    line-height: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+  }
 }
