@@ -1,13 +1,47 @@
-.Archive {
-  background: #0f9fc7;
-  width: 100%;
-  min-height: 100vw;
-  background-size: cover;
-  padding: 130px 150px;
+@media (min-width: 1025px) {
+  .Archive {
+    background: #0f9fc7;
+    width: 100%;
+    min-height: 100vw;
+    background-size: cover;
+    padding: 130px 150px;
+  }
+
+  .Archive h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+  }
 }
 
-.Archive h1 {
-  text-align: center;
-  color: #fff;
-  font-size: 30px;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Archive {
+    background: #0f9fc7;
+    width: 100%;
+    min-height: 100vw;
+    background-size: cover;
+    padding: 130px 80px;
+  }
+
+  .Archive h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .Archive {
+    background: #0f9fc7;
+    width: 100%;
+    min-height: 100vw;
+    background-size: cover;
+    padding: 130px 40px;
+  }
+
+  .Archive h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+  }
 }
