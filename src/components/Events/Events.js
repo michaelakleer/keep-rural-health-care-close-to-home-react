@@ -1,70 +1,33 @@
-import React from "react";
+import React, { Component } from "react";
+import EventsItem from "./EventsItem";
+import axios from "axios";
 import "./Events.css";
 
-export default function Events() {
-  return (
-    <div className="Events">
-      <section className="eventsOne">
-        <h1>Petitions</h1>
-        <div className="petitions">
-          <p>
-            <a href="/">Lorem ipsum dolor sit amet.</a>
-          </p>
-          <p>
-            <a href="/">Lorem ipsum dolor sit amet.</a>
-          </p>
-        </div>
-      </section>
-      <section className="eventsTwo">
-        <h1>Activations</h1>
-        <div className="activations">
-          <p>
-            <a href="/">Lorem ipsum dolor sit amet.</a>
-          </p>
-          <p>
-            <a href="/">Lorem ipsum dolor sit amet.</a>
-          </p>
-        </div>
-      </section>
-      <section className="eventsThree">
-        <h1>Past Events</h1>
-        <div className="containerOne">
-          <div className="left">
-            <h2>Petitions</h2>
-            <div className="leftUrls">
-              <p>
-                <a href="/">Lorem ipsum dolor sit amet.</a>
-              </p>
-              <p>
-                <a href="/">Lorem ipsum dolor sit amet.</a>
-              </p>
-              <p>
-                <a href="/">Lorem ipsum dolor sit amet.</a>
-              </p>
-              <p>
-                <a href="/">Lorem ipsum dolor sit amet.</a>
-              </p>
-            </div>
-          </div>
-          <div className="right">
-            <h2>Activations</h2>
-            <div className="rightUrls">
-              <p>
-                <a href="/">Lorem ipsum dolor sit amet.</a>
-              </p>
-              <p>
-                <a href="/">Lorem ipsum dolor sit amet.</a>
-              </p>
-              <p>
-                <a href="/">Lorem ipsum dolor sit amet.</a>
-              </p>
-              <p>
-                <a href="/">Lorem ipsum dolor sit amet.</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
+export class Events extends Component {
+  state = {
+    events: [],
+    isLoaded: false,
+  };
+
+  componentDidMount() {
+    axios
+      .get("http://localhost:8000/wp-json/tribe/events/v1/events")
+      .then((res) => this.setState({ events: res.data, isLoaded: true }))
+      .catch((err) => console.log(err));
+  }
+
+  render() {
+    const { events, isLoaded } = this.state;
+    if (isLoaded) {
+      <div>
+        <h1>Events</h1>
+        {events.map((events) => (
+          <EventsItem key={events.id} events={events} />
+        ))}
+      </div>;
+    }
+    return <h3>Loading...</h3>;
+  }
 }
+
+export default Events;
