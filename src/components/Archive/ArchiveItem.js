@@ -7,7 +7,7 @@ import "./ArchiveItem.css";
 export class ArchiveItem extends Component {
   state = {
     imgUrl: "",
-    auther: "",
+    author: "",
     isLoaded: false,
   };
 
