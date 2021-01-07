@@ -9,13 +9,14 @@
   .Home .homeTwo {
     background: #fff;
     padding: 30px;
-    text-align: right;
+    text-align: center;
   }
 
   .Home .homeThree {
     background: #fff;
     padding: 30px;
     border-left: 1px solid #282d33;
+    text-align: center;
   }
 
   .Home .homeFour {
