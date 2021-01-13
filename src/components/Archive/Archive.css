@@ -12,6 +12,15 @@
     color: #fff;
     font-size: 30px;
   }
+
+  .Archive .return {
+    color: #fff;
+  }
+
+  .Archive .return:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -28,6 +37,15 @@
     color: #fff;
     font-size: 30px;
   }
+
+  .Archive .return {
+    color: #fff;
+  }
+
+  .Archive .return:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
 }
 
 @media (max-width: 767px) {
@@ -43,5 +61,14 @@
     text-align: center;
     color: #fff;
     font-size: 30px;
+  }
+
+  .Archive .return {
+    color: #fff;
+  }
+
+  .Archive .return:hover {
+    color: #fff;
+    text-decoration: underline;
   }
 }
