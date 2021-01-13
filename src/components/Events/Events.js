@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import EventsItem from "./EventsItem";
 import axios from "axios";
-import "./Events.css";
 
 export class Events extends Component {
   state = {
@@ -12,20 +10,22 @@ export class Events extends Component {
   componentDidMount() {
     axios
       .get("http://localhost:8000/wp-json/tribe/events/v1/events")
-      .then((res) => this.setState({ events: res.data, isLoaded: true }))
+      .then((res) =>
+        this.setState({
+          events: res.event.events[0],
+          isLoaded: true,
+        })
+      )
       .catch((err) => console.log(err));
   }
 
   render() {
-    const { events, isLoaded } = this.state;
+    console.log(this.state);
+    const { isLoaded } = this.state;
     if (isLoaded) {
-      <div>
-        <h1>Events</h1>
-        {events.map((events) => (
-          <EventsItem key={events.id} events={events} />
-        ))}
-      </div>;
+      return <div></div>;
     }
+
     return <h3>Loading...</h3>;
   }
 }

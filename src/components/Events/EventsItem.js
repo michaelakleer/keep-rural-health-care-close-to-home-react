@@ -1,19 +1,14 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
-import axios from "axios";
 
 export class EventsItem extends Component {
-  state = {
-    imgUrl: "",
-    isLoaded: false,
-  };
-
-  static propTypes = {
-    news: PropTypes.object.isRequired,
-  };
-
-  componentDidMount() {}
+  render() {
+    const { title } = this.props.events;
+    return (
+      <div>
+        <h2>{title.rendered}</h2>
+      </div>
+    );
+  }
 }
 
 export default EventsItem;
