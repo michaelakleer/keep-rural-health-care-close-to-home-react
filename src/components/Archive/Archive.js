@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ArchiveItem from "./ArchiveItem";
+import { Link } from "react-router-dom";
 import axios from "axios";
 import "./Archive.css";
 
@@ -22,10 +23,15 @@ export class Archive extends Component {
   }
 
   render() {
+    console.log(this.state);
     const { news, isLoaded } = this.state;
     if (isLoaded) {
       return (
         <div className="Archive">
+          <Link to="/" className="return">
+            Go Back
+          </Link>
+          <hr />
           <h1>Archive</h1>
           {news.map((news) => (
             <ArchiveItem key={news.id} news={news} />
