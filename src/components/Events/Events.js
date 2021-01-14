@@ -12,7 +12,7 @@ export class Events extends Component {
       .get("http://localhost:8000/wp-json/tribe/events/v1/events")
       .then((res) =>
         this.setState({
-          events: res.event.events[0],
+          events: res.data,
           isLoaded: true,
         })
       )
@@ -21,9 +21,15 @@ export class Events extends Component {
 
   render() {
     console.log(this.state);
-    const { isLoaded } = this.state;
+    const { events, isLoaded } = this.state;
     if (isLoaded) {
-      return <div></div>;
+      return (
+        <div>
+          {events.map((event) => (
+            <h4>{event.title.rendered}</h4>
+          ))}
+        </div>
+      );
     }
 
     return <h3>Loading...</h3>;
