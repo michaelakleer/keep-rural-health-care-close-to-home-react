@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "react-bulma-components";
-
 import News from "./../News/News";
 
 import "./Home.css";
