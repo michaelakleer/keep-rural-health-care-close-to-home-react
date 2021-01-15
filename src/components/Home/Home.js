@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "react-bulma-components";
-import Events from "./../Events/Events";
+
 import News from "./../News/News";
 
 import "./Home.css";
@@ -23,9 +23,7 @@ export default function Home() {
         <section className="homeTwo">
           <div>Downloadable pdfs</div>
         </section>
-        <section className="homeThree">
-          <Events />
-        </section>
+        <section className="homeThree">Events</section>
       </section>
       <section className="homeFour">
         <News />
