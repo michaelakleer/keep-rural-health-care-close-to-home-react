@@ -1,39 +1,72 @@
-import React, { Component } from "react";
-import axios from "axios";
+import React from "react";
+import EventsItem from "./EventsItem";
+import "./Events.css";
 
-export class Events extends Component {
-  state = {
-    events: [],
-    isLoaded: false,
-  };
-
-  componentDidMount() {
-    axios
-      .get("http://localhost:8000/wp-json/tribe/events/v1/events")
-      .then((res) =>
-        this.setState({
-          events: res.data,
-          isLoaded: true,
-        })
-      )
-      .catch((err) => console.log(err));
-  }
-
-  render() {
-    console.log(this.state);
-    const { events, isLoaded } = this.state;
-    if (isLoaded) {
-      return (
-        <div>
-          {events.map((event) => (
-            <h4>{event.title.rendered}</h4>
-          ))}
+export default function Events() {
+  return (
+    <div className="Events">
+      <section className="eventsOne">
+        <EventsItem />
+        <h1>Petitions</h1>
+        <div className="petitions">
+          <p>
+            <a href="/">Lorem ipsum dolor sit amet.</a>
+          </p>
+          <p>
+            <a href="/">Lorem ipsum dolor sit amet.</a>
+          </p>
         </div>
-      );
-    }
-
-    return <h3>Loading...</h3>;
-  }
+      </section>
+      <section className="eventsTwo">
+        <h1>Activations</h1>
+        <div className="activations">
+          <p>
+            <a href="/">Lorem ipsum dolor sit amet.</a>
+          </p>
+          <p>
+            <a href="/">Lorem ipsum dolor sit amet.</a>
+          </p>
+        </div>
+      </section>
+      <section className="eventsThree">
+        <h1>Past Events</h1>
+        <div className="containerOne">
+          <div className="left">
+            <h2>Petitions</h2>
+            <div className="leftUrls">
+              <p>
+                <a href="/">Lorem ipsum dolor sit amet.</a>
+              </p>
+              <p>
+                <a href="/">Lorem ipsum dolor sit amet.</a>
+              </p>
+              <p>
+                <a href="/">Lorem ipsum dolor sit amet.</a>
+              </p>
+              <p>
+                <a href="/">Lorem ipsum dolor sit amet.</a>
+              </p>
+            </div>
+          </div>
+          <div className="right">
+            <h2>Activations</h2>
+            <div className="rightUrls">
+              <p>
+                <a href="/">Lorem ipsum dolor sit amet.</a>
+              </p>
+              <p>
+                <a href="/">Lorem ipsum dolor sit amet.</a>
+              </p>
+              <p>
+                <a href="/">Lorem ipsum dolor sit amet.</a>
+              </p>
+              <p>
+                <a href="/">Lorem ipsum dolor sit amet.</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
 }
-
-export default Events;
