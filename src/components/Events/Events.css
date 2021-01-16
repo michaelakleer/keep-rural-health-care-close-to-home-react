@@ -2,19 +2,12 @@
   .Events .eventsOne {
     padding: 8rem 50px 3rem 50px;
     background: #0f9fc7;
+    width: 100%;
+    min-height: 50vw;
+    background-size: cover;
   }
 
-  .Events .eventsTwo {
-    padding: 4rem 250px 4rem 250px;
-  }
-
-  .Events .eventsThree {
-    padding: 4rem 250px 10rem 250px;
-    background: #0f9fc7;
-  }
-
-  .eventsOne h1,
-  .eventsThree h1 {
+  .eventsOne h1 {
     text-align: center;
     font-size: 35px;
     color: #fff;
@@ -71,6 +64,10 @@
   .Events .leftUrls,
   .Events .rightUrls {
     margin-top: 10px;
+  }
+
+  .Events .month {
+    color: #fff;
   }
 }
 
@@ -148,6 +145,10 @@
   .Events .rightUrls {
     margin-top: 10px;
   }
+
+  .Events .month {
+    color: #fff;
+  }
 }
 
 @media (max-width: 767px) {
@@ -223,5 +224,9 @@
   .Events .leftUrls,
   .Events .rightUrls {
     margin-top: 10px;
+  }
+
+  .Events .month {
+    color: #fff;
   }
 }
