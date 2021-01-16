@@ -1,6 +1,6 @@
 @media (min-width: 1025px) {
   .EventsItem {
-    margin: 30px 175px;
+    margin: 30px 0;
     padding: 40px 10px;
     background: #fff;
     line-height: 25px;
@@ -26,6 +26,7 @@
   .EventsItem .image {
     flex: 1;
     padding-right: 20px;
+    max-width: 100%;
   }
 
   .EventsItem .dateNumber {
@@ -40,11 +41,6 @@
 
   .EventsItem .description {
     padding-top: 15px;
-  }
-
-  .EventsItem .image {
-    max-width: 100%;
-    height: 100%;
   }
 }
 
