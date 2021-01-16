@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./EventsItem.css";
 
 export default function EventsItem(props) {
@@ -11,7 +12,9 @@ export default function EventsItem(props) {
         </div>
         <div className="info">
           <div className="fullDate">{props.fullDate}</div>
-          <div className="eventTitle">{props.title}</div>
+          <div className="eventTitle">
+            <Link to={`/events/${props.id}`}>{props.title}</Link>
+          </div>
           <div className="location">{props.location}</div>
           <div className="description">{props.description}</div>
         </div>
@@ -19,7 +22,7 @@ export default function EventsItem(props) {
           <img
             src={props.imageSource}
             alt={props.photoTitle}
-            className="treeImage"
+            className="image"
           />
         </div>
       </div>

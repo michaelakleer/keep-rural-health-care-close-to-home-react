@@ -11,6 +11,7 @@ import Events from "./components/Events/Events";
 import Contact from "./components/Contact/Contact";
 import Archive from "./components/Archive/Archive";
 import IndividualNews from "./components/News/IndividualNews";
+
 import Footer from "./components/Footer/Footer";
 
 import "./App.css";
