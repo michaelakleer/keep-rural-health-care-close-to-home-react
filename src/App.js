@@ -11,6 +11,8 @@ import Events from "./components/Events/Events";
 import Contact from "./components/Contact/Contact";
 import Archive from "./components/Archive/Archive";
 import IndividualNews from "./components/News/IndividualNews";
+import PastEvents from "./components/Events/PastEvents";
+import IndividualEvents from "./components/Events/IndividualEvents";
 
 import Footer from "./components/Footer/Footer";
 
@@ -30,6 +32,8 @@ export default function App() {
         <Route path="/contact" component={Contact} />
         <Route path="/archive" component={Archive} />
         <Route path="/news/:id" component={IndividualNews} />
+        <Route path="/events/archive" component={PastEvents} />
+        <Route path="/events/:id" component={IndividualEvents} />
       </Switch>
       <Footer />
     </div>
