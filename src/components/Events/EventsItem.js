@@ -51,4 +51,4 @@ export const EventsItem = () => {
   };
 };
 
-export default EventsItem;
+export {EventsItem};
