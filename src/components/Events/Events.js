@@ -45,8 +45,6 @@ export default function Events(props) {
     },
   };
 
-const
-
   return (
     <div className="Events">
       <section className="eventsOne">
