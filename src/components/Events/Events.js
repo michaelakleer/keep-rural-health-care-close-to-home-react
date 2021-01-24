@@ -50,14 +50,14 @@ export default function Events(props) {
       <section className="eventsOne">
         <h2 className="month">February 2021</h2>
         <hr />
-        <EventsItem />
+        <EventsItem {...props.eventOne} />
         <h2 className="month">March 2021</h2>
         <hr />
-        <EventsItem />
-        <EventsItem />
+        <EventsItem {...props.eventTwo} />
+        <EventsItem {...props.eventThree} />
         <h2 className="month">April 2021</h2>
         <hr />
-        <EventsItem />
+        <EventsItem {...props.eventFour} />
         <Link to="/events/archive">
           <Button className="button is-large">Past Events</Button>
         </Link>
