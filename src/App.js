@@ -32,10 +32,9 @@ export default function App() {
         <Route path="/archive" component={Archive} />
         <Route path="/news/:id" component={IndividualNews} />
         <Route path="/events/archive" component={PastEvents} />
-        <Route
-          path="/events/:id"
-          render={(props) => <IndividualEvents {...props} />}
-        />
+        <Route path="/events/:id">
+          <IndividualEvents />
+        </Route>
       </Switch>
       <Footer />
     </div>
