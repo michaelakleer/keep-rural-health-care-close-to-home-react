@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Switch, Route } from "react-router-dom";
+import IndividualEvents from "./IndividualEvents";
 import "./EventsItem.css";
 
 export default function EventsItem(props) {
@@ -13,7 +14,7 @@ export default function EventsItem(props) {
         <div className="info">
           <div className="fullDate">{props.fullDate}</div>
           <div className="eventTitle">
-            <Link to={`/events/${props.id}`}>{props.title}</Link>
+            <Link to={`/event-info/${props.id}`}>{props.title}</Link>
           </div>
           <div className="location">{props.location}</div>
           <div className="description">{props.description}</div>
@@ -26,6 +27,12 @@ export default function EventsItem(props) {
           />
         </div>
       </div>
+
+      <Switch>
+        <Route path={`/event-info/${props.id}`}>
+          <IndividualEvents />
+        </Route>
+      </Switch>
     </div>
   );
 }
