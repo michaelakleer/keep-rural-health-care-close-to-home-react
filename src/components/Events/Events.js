@@ -1,7 +1,9 @@
 import React from "react";
 import EventsItem from "./EventsItem";
-import { Link } from "react-router-dom";
+import { Link, Switch, Route, useRouteMatch } from "react-router-dom";
 import { Button } from "react-bulma-components";
+import "./../../images/tree.jpg";
+import PastEvents from "./PastEvents";
 
 import "./Events.css";
 
@@ -15,6 +17,8 @@ export default function Events(props) {
       title: "Title (link to individual page)",
       location: "Location (Link to google maps page??",
       description: "Description (excerpt)",
+      imageSource: "tree.jpg",
+      photoTitle: "Tree",
     },
     eventTwo: {
       id: "mar-10",
@@ -24,6 +28,8 @@ export default function Events(props) {
       title: "Title (link to individual page)",
       location: "Location (Link to google maps page??",
       description: "Description (excerpt)",
+      imageSource: "tree.jpg",
+      photoTitle: "Tree",
     },
     eventThree: {
       id: "mar-12",
@@ -33,6 +39,8 @@ export default function Events(props) {
       title: "Title (link to individual page)",
       location: "Location (Link to google maps page??",
       description: "Description (excerpt)",
+      imageSource: "tree.jpg",
+      photoTitle: "Tree",
     },
     eventFour: {
       id: "apr-9",
@@ -42,8 +50,12 @@ export default function Events(props) {
       title: "Title (link to individual page)",
       location: "Location (Link to google maps page??",
       description: "Description (excerpt)",
+      imageSource: "tree.jpg",
+      photoTitle: "Tree",
     },
   };
+
+  const { path, url } = useRouteMatch();
 
   return (
     <div className="Events">
@@ -58,10 +70,16 @@ export default function Events(props) {
         <h2 className="month">April 2021</h2>
         <hr />
         <EventsItem {...props.eventFour} />
-        <Link to="/events/archive">
+        <Link to={`${url}/archive`}>
           <Button className="button is-large">Past Events</Button>
         </Link>
       </section>
+
+      <Switch>
+        <Route path={`${path}/archive`}>
+          <PastEvents />
+        </Route>
+      </Switch>
     </div>
   );
 }
