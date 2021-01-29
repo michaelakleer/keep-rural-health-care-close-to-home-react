@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function IndividualEvents() {
-  return <div>Hello</div>;
+  return (
+    <div className="IndividualEvents">
+      <div>Hello</div>
+    </div>
+  );
 }
