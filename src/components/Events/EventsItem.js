@@ -27,9 +27,8 @@ export default function EventsItem(props) {
           />
         </div>
       </div>
-
       <Switch>
-        <Route path={`/event-info/${props.id}`}>
+        <Route path="/event-info/:id">
           <IndividualEvents />
         </Route>
       </Switch>
