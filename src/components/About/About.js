@@ -56,16 +56,11 @@ export default function About() {
           </div>
           <div className="bioTwo">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse scelerisque non velit in aliquam. Sed feugiat, arcu et
-              porta iaculis, erat ligula iaculis dolor, vitae eleifend massa
-              metus sed mi. Morbi semper dolor at quam faucibus, in fermentum
-              leo pellentesque. Integer vel gravida ligula, ac tristique odio.
-              Cras vehicula condimentum sollicitudin. Pellentesque eu semper
-              magna. Etiam a semper ligula. Sed vel maximus velit. Aenean
-              iaculis mattis velit, ut molestie eros mattis id. Nam eu metus ex.
-              Phasellus quis risus non erat aliquet mattis. Aliquam eleifend
-              quis nibh laoreet euismod.
+              Alicia Powell is a settler scholar and educator from Binbrook,
+              Ontario. Alicia holds a PhD in Health and Society from McMaster
+              University, and studies rural health, health equity and healthcare
+              in Canada. Alicia works in conservation, education and recreation,
+              and is vice-president of her local agricultural society.
             </p>
           </div>
         </div>
